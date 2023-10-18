@@ -1,0 +1,15 @@
+---
+title: "assign01"
+---
+
+## Assignment 1
+
+Analysis of survey:
+
+Q2a. The survey is structured in a way where questions concerning the content is presented before the demographic information is asked.
+
+Q2b. The questionnaire is composed of an array of different questions, that range from binary answers like yes or no to Likert scales questions. The survey also includes questions that have logic, this always questions to be followed up or skipped based on questions with binary responses.
+
+Q2c. The questions are ordered so that the survey questions are presented first and the demographics are placed last.
+
+Q7. One way to improve a respondent's experience is to break up the survey into sections to maintain cohesion and synchronicity throughout the survey.
