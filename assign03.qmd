@@ -4,7 +4,17 @@ title: "assign03"
 
 ## Assignment 3
 
-In this assignment we were asked to analyze Biden-Xi summit that took place in November 2021. During this summit, Biden and Xi discussed China's domestic policies, trade relationships, and security issues regarding the Asian region (Politico). For this assignment, we used the R alongside a Quantenda package to scrape and analyze Twitter data on the day of the summit. The twitter data analyzed displayed activity ranging from interactions, trending hashtags, popular users that were tagged, and prominent rhetoric on the day of the summit.
+In this assignment we were asked to analyze Biden-Xi summit that took place in November 2021. During this summit, Biden and Xi discussed China's domestic policies, trade relationships, and security issues regarding the Asian region (Politico). For this assignment, we used the R alongside a Quantenda package to scrape and analyze Twitter data on the day of the summit. The twitter data analyzed displayed activity ranging from interactions, trending hashtags, popular users that were tagged, and p
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+rominent rhetoric on the day of the summit.
 
 This is the summary of data:
 
