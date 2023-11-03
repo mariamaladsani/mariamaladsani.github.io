@@ -8,7 +8,7 @@ In this assignment we were asked to analyze Biden-Xi summit that took place in N
 
 This is the summary of data:
 
-The most popular hashtags on that were" #china"," #joebiden"," #xinjinping", and "#america". Other popular hashtags were "#usa," "#breakingnews," and "pray4ameria." Quantenda data also pulled other popular hashtags from twitters among the ones not notes above are: "#uyghurgenocide," "#uyghur," "#humanrights," "tibetans," "taiwan," "#coronavirus," and interestingly enough "#fentanyl." This plot shows how the variety of hashtags were used, and their connection with one another.
+The most popular hashtags on that were" #china"," #joebiden"," #xinjinping", and "#america". Other popular hashtags were "#usa," "#breakingnews," and "pray4america." Quantenda data also pulled other popular hashtags from twitters among the ones not notes above are: "#uyghurgenocide," "#uyghur," "#humanrights," "tibetans," "taiwan," "#coronavirus," and interestingly enough "#fentanyl." This plot shows how the variety of hashtags were used, and their connection with one another.
 
 ![](images/Rplot01_topics-02.png){fig-align="center" width="460"}
 
