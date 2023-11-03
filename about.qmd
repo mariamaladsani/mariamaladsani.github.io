@@ -6,7 +6,7 @@ I am currently a master's student at the University of Texas at Dallas' Applied 
 
 During my graduate studies I am hoping to bridge my interests in both molecular neuroscience and neuropsychology. I am interested in how social and environmental factors in early life can impact and/or impair cognitive functions like memory later on in life. Overall, I aspire to be a well-rounded neuroscientist by conducting research that draws from different disciplines and methods.
 
-You can find my CV [here](https://1drv.ms/w/s!AmGvRZIG1obhgcVoMuz1R_V2Y--yUA?e=QJCvaE).
+You can find my CV [here](https://docs.google.com/document/d/16osp8t1dSTJ0PPVI4Z3f3Ius9BsZkYb7/edit?usp=sharing&ouid=112248111695570791626&rtpof=true&sd=true).
 
 ```{r}
 1 + 1
