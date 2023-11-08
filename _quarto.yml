@@ -13,6 +13,8 @@ website:
           - assign01.qmd
           - assign02.qmd
           - assign03.qmd
+          - assign06.qmd
+          - assign07.qmd
 
 format:
   html:
