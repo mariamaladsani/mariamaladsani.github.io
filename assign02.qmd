@@ -2,7 +2,7 @@
 title: "assign02"
 ---
 
-## Assignment 2
+## Assignment 2: gTrends
 
 I examined that number of searches for 'Trump' following the announcement of his election on June 6th 2015 for the 2016 US Election, up until 2023. I also examined the searches for 'Biden' following the same dates as my previous search.
 
