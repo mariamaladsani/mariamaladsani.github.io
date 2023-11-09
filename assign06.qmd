@@ -12,7 +12,7 @@ Once we install the necessary packages like XML, wordcloud, RColorBrwer, NLP, tm
 
 Following this procedure we start vectorizing the words in the document and we then run the words.corpus too. Both the words.vec and words.corpus are seen in the data section of RStudio, and reveal the language, content, length, as well as other features in MLK's speech.
 
-![](/images/Screenshot (136)-01.png){fig-align="center" width="484"}
+![](/images/Screenshot%20(136)-01.png){fig-align="center" width="484"}
 
 We run other elements of words.corpus like removing punctuating and numbers to make it easier to analyze the text. Running TermDocumentMatrix, processes minuscule elements of the speech like integers and characters, this tool is helpful for the generation of wordcloud later. After the intial run of TermDocumentMatrix we can no analyze more broader parts of the text like word count, which can be seen in the picture below.
 
