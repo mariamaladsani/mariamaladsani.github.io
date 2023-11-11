@@ -15,6 +15,7 @@ website:
           - assign03.qmd
           - assign06.qmd
           - assign07.qmd
+          - assign08.qmd
 
 format:
   html:

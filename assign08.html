@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>mariamaladsani.github.io - assign06</title>
+<title>mariamaladsani.github.io - assign08</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -132,7 +132,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#assignment-6-webscrapingtextmining" id="toc-assignment-6-webscrapingtextmining" class="nav-link active" data-scroll-target="#assignment-6-webscrapingtextmining">Assignment 6: Webscraping/textmining</a></li>
+  <li><a href="#assignment-8-spatial-data" id="toc-assignment-8-spatial-data" class="nav-link active" data-scroll-target="#assignment-8-spatial-data">Assignment 8: Spatial Data</a></li>
   </ul>
 </nav>
     </div>
@@ -141,7 +141,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">assign06</h1>
+<h1 class="title">assign08</h1>
 </div>
 
 
@@ -156,37 +156,33 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="assignment-6-webscrapingtextmining" class="level2">
-<h2 class="anchored" data-anchor-id="assignment-6-webscrapingtextmining">Assignment 6: Webscraping/textmining</h2>
-<p>For this project we webscapred Martin Luther King’s “I Have A Dream Speech,” using a text mining script. The text mining scipt downloads the “htmlTreeParse” function which allows to break down the article and ultimately process different vectors like punctuation, paragraphs, and word-frequency; which I’ll talk about a little bit later.</p>
-<p>Once we install the necessary packages like XML, wordcloud, RColorBrwer, NLP, tm, and quantenda, we process the speech as an html document. This makes it easier to sparse through. As seen in the image below, the speech is now processed as an html document on RStudio.</p>
+<section id="assignment-8-spatial-data" class="level2">
+<h2 class="anchored" data-anchor-id="assignment-8-spatial-data">Assignment 8: Spatial Data</h2>
+<p>The purpose of this assignment was to learn spatial data to learn the median age in the USA using the 2019 US Census Data. We start doing so by downloading the tidycensus and tigris packages. After downloading said packages, we can start observing the variables in our census dataset that will ultimately dictate the median age in each state. These variables account for sex, age, geography, among other important demographic information Additionally, access to US census data neccesites an API Key from Census API Data Service. After running, these vectors we can narrow our search to seek the median age data.</p>
+<p>Before plotting actualizing the data we run a plain map of the US:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src=".\images/paragraph-01.png" class="img-fluid figure-img" width="561"></p>
+<p><img src="images/9c6bf8c1-975a-45d1-b1eb-ec49260054e7-02.png" class="img-fluid figure-img"></p>
 </figure>
 </div>
-<p>Following this procedure we start vectorizing the words in the document and we then run the words.corpus too. Both the words.vec and words.corpus are seen in the data section of RStudio, and reveal the language, content, length, as well as other features in MLK’s speech.</p>
+<p>Since we have the schematic of the map, we are now able to apply the demographic variables we already ran on a map, which captures all of our data:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src=".\images/Screenshot (136)-01.png" class="img-fluid figure-img" width="484"></p>
+<p><img src="images/Rplot01-02.png" class="img-fluid figure-img"></p>
 </figure>
 </div>
-<p>We run other elements of words.corpus like removing punctuating and numbers to make it easier to analyze the text. Running TermDocumentMatrix, processes minuscule elements of the speech like integers and characters, this tool is helpful for the generation of wordcloud later. After the intial run of TermDocumentMatrix we can no analyze more broader parts of the text like word count, which can be seen in the picture below.</p>
+<p>To compare data to the median age by state in 2009, I tweaked the year in the code and generated this map:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src=".\images/wordcount1-01.png" class="img-fluid figure-img" width="466"></p>
+<p><img src="images/5b505474-24fd-4ddb-84c6-6e5f08d6f926.png" class="img-fluid figure-img"></p>
 </figure>
 </div>
-<p>We can finally generate a wordcloud of MLK’s “I Have A Dream,” speech, that displays the most frequent words used.</p>
+<p>While, the map look like somewhat similar there are a few variable differences seen between 2009 and 2019, particularly in the Midwest where the median age is increasing. Regions like the east and west coast continue to maintain very similar demographics.</p>
+<p>To compare further we I also tweaked the code to run the median age for the 2020 census data. Unfortunately, due to low-response rates the census just estimated the data. This is how it appeared in the console”</p>
+<pre><code>The regular 1-year ACS for 2020 was not released and is not available in tidycensus. ℹ Due to low response rates, the Census Bureau instead released a set of experimental estimates for the 2020 1-year ACS.</code></pre>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src=".\images/0364c463-2a56-458e-80d6-7fe21265513a-01.png" class="img-fluid figure-img" width="563"></p>
-</figure>
-</div>
-<p>Dr.&nbsp;Ho, then showed me how to play around with word frequencies. We were able to generate a wordcloud with words that were only mentioned once in the speech. As seen, the wordcloud becomes much more diverse.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src=".\images/3c46bf3b-a45c-4e64-9dfd-4dffd209d727-01.png" class="img-fluid figure-img" width="605"></p>
+<p><img src="images/medianage2020.png" class="img-fluid figure-img" width="718"></p>
 </figure>
 </div>
 
