@@ -1,7 +1,0 @@
----
-title: "assign07.qmd"
----
-
-## Assignment 7: Government data and data processing
-
-For this project we were recorded to download large
