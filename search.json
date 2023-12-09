@@ -137,13 +137,13 @@
     "href": "assign07.html",
     "title": "assign07",
     "section": "",
-    "text": "For this project we were recorded to download large"
+    "text": "This assignment required us to download large datasets from government websites. Prior to downloading any of the data we reset the console to save the memory. After resetting, we downloaded the purrr and magrittr packages.\n\n\n\n\n\nI set the path to my desktop directory. After completing that, I downloaded congressional hearing datasets from 2021-2023 from https://www.govinfo.gov/app/search/ . After downloading, I was able to download and the organize the data on RStudio.\n\n\n\n\n\nRStudio was also able to organize other variables of the dataset in the Data tab.\n\n\n\n\n\nThe values set allows to see how long the dataset took long to load, in this case it took 9 seconds. We were also suggested to look at other storage methods like: Arrow, Feather, and Parquet. Arrow is a storage method that is able to hierarchically organize data on modern hardware. Feather is able “to read and write feather files,” at “maximum speed.” Lastly, Parquet similar to feather also manages columnar storage datasets, other than it also runs on Python."
   },
   {
     "objectID": "assign07.html#assignment-7-government-data-and-data-processing",
     "href": "assign07.html#assignment-7-government-data-and-data-processing",
     "title": "assign07",
     "section": "",
-    "text": "For this project we were recorded to download large"
+    "text": "This assignment required us to download large datasets from government websites. Prior to downloading any of the data we reset the console to save the memory. After resetting, we downloaded the purrr and magrittr packages.\n\n\n\n\n\nI set the path to my desktop directory. After completing that, I downloaded congressional hearing datasets from 2021-2023 from https://www.govinfo.gov/app/search/ . After downloading, I was able to download and the organize the data on RStudio.\n\n\n\n\n\nRStudio was also able to organize other variables of the dataset in the Data tab.\n\n\n\n\n\nThe values set allows to see how long the dataset took long to load, in this case it took 9 seconds. We were also suggested to look at other storage methods like: Arrow, Feather, and Parquet. Arrow is a storage method that is able to hierarchically organize data on modern hardware. Feather is able “to read and write feather files,” at “maximum speed.” Lastly, Parquet similar to feather also manages columnar storage datasets, other than it also runs on Python."
   }
 ]
