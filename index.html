@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>mariamaladsani.github.io</title>
+<title>mariamaladsani.github.io - assign08</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -175,6 +175,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul>
   <li><a href="#website-httpsmariamaladsani.github.io" id="toc-website-httpsmariamaladsani.github.io" class="nav-link active" data-scroll-target="#website-httpsmariamaladsani.github.io">[Website] https://mariamaladsani.github.io</a></li>
   <li><a href="#assignment-8-spatial-data" id="toc-assignment-8-spatial-data" class="nav-link" data-scroll-target="#assignment-8-spatial-data">Assignment 8: Spatial Data</a></li>
+  <li><a href="#assignment-7-government-data-and-data-processing" id="toc-assignment-7-government-data-and-data-processing" class="nav-link" data-scroll-target="#assignment-7-government-data-and-data-processing">Assignment 7: Government data and data processing</a></li>
   <li><a href="#assignment-3-quanteda" id="toc-assignment-3-quanteda" class="nav-link" data-scroll-target="#assignment-3-quanteda">Assignment 3: Quanteda</a></li>
   <li><a href="#assignment-2-g-trends" id="toc-assignment-2-g-trends" class="nav-link" data-scroll-target="#assignment-2-g-trends">Assignment 2: G-Trends</a></li>
   <li><a href="#assignment-1-survey-analysis" id="toc-assignment-1-survey-analysis" class="nav-link" data-scroll-target="#assignment-1-survey-analysis">Assignment 1: Survey Analysis</a></li>
@@ -186,7 +187,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">mariamaladsani.github.io</h1>
+<h1 class="title">assign08</h1>
 </div>
 
 
@@ -208,29 +209,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="assignment-8-spatial-data" class="level2">
 <h2 class="anchored" data-anchor-id="assignment-8-spatial-data">Assignment 8: Spatial Data</h2>
-<p>The purpose of this assignment was to learn spatial data to learn the median age in the USA using the 2019 US Census Data. We start doing so by downloading the tidycensus and tigris packages. After downloading said packages, we can start observing the variables in our census dataset that will ultimately dictate the median age in each state. These variables account for sex, age, geography, among other important demographic information Additionally, access to US census data neccesites an API Key from Census API Data Service. After running, these vectors we can narrow our search to seek the median age data.</p>
-<p>Before plotting actualizing the data we run a plain map of the US:</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/9c6bf8c1-975a-45d1-b1eb-ec49260054e7-02.png" class="img-fluid figure-img"></p>
-</figure>
-</div>
-<p>Since we have the schematic of the map, we are now able to apply the demographic variables we already ran on a map, which captures all of our data:</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/Rplot01-02.png" class="img-fluid figure-img"></p>
-</figure>
-</div>
+<p>Assignment 8: Spatial Data</p>
+<p>The purpose of this assignment was to learn spatial data to learn the median age in the USA using the 2019 US Census Data. We start doing so by downloading the tidycensus and tigris packages. After downloading said packages, we can start observing the variables in our census dataset that will ultimately dictate the median age in each state. These variables account for sex, age, geography, among other important demographic information Additionally, access to US census data necessitates an API Key from Census API Data Service. After running, these vectors we can narrow our search to seek the median age data.</p>
+<p>Before actualizing the data we run a plain map of the US:</p>
+<p>Since we have the schematic of the map, we are now able to apply the demographic variables we already ran on a map, which captures all of our data. I first ran the code for the median age by state for 2019.</p>
 <p>To compare data to the median age by state in 2009, I tweaked the year in the code and generated this map:</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/5b505474-24fd-4ddb-84c6-6e5f08d6f926.png" class="img-fluid figure-img"></p>
-</figure>
-</div>
 <p>While, the map look like somewhat similar there are a few variable differences seen between 2009 and 2019, particularly in the Midwest where the median age is increasing. Regions like the east and west coast continue to maintain very similar demographics.</p>
-<p>To compare further we I also tweaked the code to run the median age for the 2020 census data. Unfortunately, due to low-response rates the census just estimated the data. This is how it appeared in the console”</p>
-<pre><code>The regular 1-year ACS for 2020 was not released and is not available in tidycensus. ℹ Due to low response rates, the Census Bureau instead released a set of experimental estimates for the 2020 1-year ACS.</code></pre>
-<p><img src="images/medianage2020.png" class="img-fluid" data-fig-align="center" width="718"> ## Assignment 7: Government data and data processing</p>
+<p>To compare further we I also tweaked the code to run the median age for the 2020 census data. Unfortunately, due to low-response rates the census just estimated the data. This is how it appeared in the console:</p>
+<p>The regular 1-year ACS for 2020 was not released and is not available in tidycensus. ℹ Due to low response rates, the Census Bureau instead released a set of experimental estimates for the 2020 1-year ACS.</p>
+</section>
+<section id="assignment-7-government-data-and-data-processing" class="level2">
+<h2 class="anchored" data-anchor-id="assignment-7-government-data-and-data-processing">Assignment 7: Government data and data processing</h2>
 <p>This assignment required us to download large data sets from government websites. Prior to downloading any of the data we reset the console to conserve memory. After resetting, we downloaded the purrr and magrittr packages.</p>
 <p>I set the path to my desktop directory. After completing that, I downloaded congressional hearing datasets from 2021-2023 from https://www.govinfo.gov/app/search/ . After downloading, I was able to download and the organize the data on RStudio.</p>
 <p>RStudio was also able to organize other variables of the data set in the Data tab.</p>
@@ -316,7 +305,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>Q2c. The questions are ordered so that the survey questions are presented first and the demographics are placed last.</p>
 <p>Q7. One way to improve a respondent’s experience is to break up the survey into sections to maintain cohesion and synchronicity throughout the survey.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 2</code></pre>
 </div>
