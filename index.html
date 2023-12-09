@@ -175,10 +175,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul>
   <li><a href="#website-httpsmariamaladsani.github.io" id="toc-website-httpsmariamaladsani.github.io" class="nav-link active" data-scroll-target="#website-httpsmariamaladsani.github.io">[Website] https://mariamaladsani.github.io</a></li>
   <li><a href="#assignment-8-spatial-data" id="toc-assignment-8-spatial-data" class="nav-link" data-scroll-target="#assignment-8-spatial-data">Assignment 8: Spatial Data</a></li>
-  <li><a href="#assignment-6-webscrapingtextmining" id="toc-assignment-6-webscrapingtextmining" class="nav-link" data-scroll-target="#assignment-6-webscrapingtextmining">Assignment 6: Webscraping/textmining</a></li>
-  <li><a href="#assignment-3" id="toc-assignment-3" class="nav-link" data-scroll-target="#assignment-3">Assignment 3</a></li>
-  <li><a href="#assignment-2" id="toc-assignment-2" class="nav-link" data-scroll-target="#assignment-2">Assignment 2</a></li>
-  <li><a href="#assignment-1" id="toc-assignment-1" class="nav-link" data-scroll-target="#assignment-1">Assignment 1</a></li>
+  <li><a href="#assignment-3-quanteda" id="toc-assignment-3-quanteda" class="nav-link" data-scroll-target="#assignment-3-quanteda">Assignment 3: Quanteda</a></li>
+  <li><a href="#assignment-2-g-trends" id="toc-assignment-2-g-trends" class="nav-link" data-scroll-target="#assignment-2-g-trends">Assignment 2: G-Trends</a></li>
+  <li><a href="#assignment-1-survey-analysis" id="toc-assignment-1-survey-analysis" class="nav-link" data-scroll-target="#assignment-1-survey-analysis">Assignment 1: Survey Analysis</a></li>
   </ul>
 </nav>
     </div>
@@ -231,14 +230,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>While, the map look like somewhat similar there are a few variable differences seen between 2009 and 2019, particularly in the Midwest where the median age is increasing. Regions like the east and west coast continue to maintain very similar demographics.</p>
 <p>To compare further we I also tweaked the code to run the median age for the 2020 census data. Unfortunately, due to low-response rates the census just estimated the data. This is how it appeared in the console”</p>
 <pre><code>The regular 1-year ACS for 2020 was not released and is not available in tidycensus. ℹ Due to low response rates, the Census Bureau instead released a set of experimental estimates for the 2020 1-year ACS.</code></pre>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/medianage2020.png" class="img-fluid figure-img" width="718"></p>
-</figure>
-</div>
-</section>
-<section id="assignment-6-webscrapingtextmining" class="level2">
-<h2 class="anchored" data-anchor-id="assignment-6-webscrapingtextmining">Assignment 6: Webscraping/textmining</h2>
+<p><img src="images/medianage2020.png" class="img-fluid" data-fig-align="center" width="718"> ## Assignment 7: Government data and data processing</p>
+<p>This assignment required us to download large data sets from government websites. Prior to downloading any of the data we reset the console to conserve memory. After resetting, we downloaded the purrr and magrittr packages.</p>
+<p>I set the path to my desktop directory. After completing that, I downloaded congressional hearing datasets from 2021-2023 from https://www.govinfo.gov/app/search/ . After downloading, I was able to download and the organize the data on RStudio.</p>
+<p>RStudio was also able to organize other variables of the data set in the Data tab.</p>
+<p>The values set allows to see how long the dataset took long to load, in this case it took 9 seconds. We were also suggested to look at other storage methods like: Arrow, Feather, and Parquet. Arrow is a storage method that is able to hierarchically organize data on modern hardware. Feather is able “to read and write feather files,” at “maximum speed.” Lastly, Parquet similar to feather also manages columnar storage datasets, other than it also runs on Python. ## Assignment 6: Webscraping/textmining</p>
 <p>For this project we webscapred Martin Luther King’s “I Have A Dream Speech,” using a text mining script. The text mining scipt downloads the “htmlTreeParse” function which allows to break down the article and ultimately process different vectors like punctuation, paragraphs, and word-frequency; which I’ll talk about a little bit later.</p>
 <p>Once we install the necessary packages like XML, wordcloud, RColorBrwer, NLP, tm, and quantenda, we process the speech as an html document. This makes it easier to sparse through. As seen in the image below, the speech is now processed as an html document on RStudio.</p>
 <div class="quarto-figure quarto-figure-center">
@@ -271,8 +267,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </figure>
 </div>
 </section>
-<section id="assignment-3" class="level2">
-<h2 class="anchored" data-anchor-id="assignment-3">Assignment 3</h2>
+<section id="assignment-3-quanteda" class="level2">
+<h2 class="anchored" data-anchor-id="assignment-3-quanteda">Assignment 3: Quanteda</h2>
 <p>In this assignment we were asked to analyze Biden-Xi summit that took place in November 2021. During this summit, Biden and Xi discussed China’s domestic policies, trade relationships, and security issues regarding the Asian region (Politico). For this assignment, we used the R alongside a Quantenda package to scrape and analyze Twitter data on the day of the summit. The twitter data analyzed displayed activity ranging from interactions, trending hashtags, popular users that were tagged, and prominent rhetoric on the day of the summit.</p>
 <p>This is the summary of data:</p>
 <p>The most popular hashtags on that were” #china”,” #joebiden”,” #xinjinping”, and “#america”. Other popular hashtags were “#usa,” “#breakingnews,” and “pray4america.” Quantenda data also pulled other popular hashtags from twitters among the ones not notes above are: “#uyghurgenocide,” “#uyghur,” “#humanrights,” “tibetans,” “taiwan,” “#coronavirus,” and interestingly enough “#fentanyl.” This plot shows how the variety of hashtags were used, and their connection with one another.</p>
@@ -306,14 +302,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <p>Lastly, we were asked to discuss Wordfish it. Wordfish analyzes positions of documents based on word frequencies. They do so by using a one-dimension scaling model.</p>
 </section>
-<section id="assignment-2" class="level2">
-<h2 class="anchored" data-anchor-id="assignment-2">Assignment 2</h2>
+<section id="assignment-2-g-trends" class="level2">
+<h2 class="anchored" data-anchor-id="assignment-2-g-trends">Assignment 2: G-Trends</h2>
 <p>I examined that number of searches for ‘Trump’ following the announcement of his election on June 6th 2015 for the 2016 US Election, up until 2023. I also examined the searches for ‘Biden’ following the same dates as my previous search.</p>
 <p>In October and November 2016 there was a spike in searches for ‘Trump,’ coinciding to the election date. There was another sharp peak in ‘Trump,’ searches in October and November 2020. The search item ‘Biden’ was at its peak between the years of 2015 and 2023 in November 2020 during the election. Following the November 2020 election there was still more searches for ‘Biden,’ compared years 2015-early 2019, but not as frequent as the years of 2019 and 2020. The term ‘Election’ has a varied number of searches over time. The highest peaks being November 2016 and November 2020. There was a sharp dip of searches after January 2021, with some peaks in the searches in early to mid 2023.</p>
 <p>All of the searches were exclusive to Google trends in the United States.</p>
 </section>
-<section id="assignment-1" class="level2">
-<h2 class="anchored" data-anchor-id="assignment-1">Assignment 1</h2>
+<section id="assignment-1-survey-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="assignment-1-survey-analysis">Assignment 1: Survey Analysis</h2>
 <p>Analysis of survey:</p>
 <p>Q2a. The survey is structured in a way where questions concerning the content is presented before the demographic information is asked.</p>
 <p>Q2b. The questionnaire is composed of an array of different questions, that range from binary answers like yes or no to Likert scales questions. The survey also includes questions that have logic, this always questions to be followed up or skipped based on questions with binary responses.</p>
