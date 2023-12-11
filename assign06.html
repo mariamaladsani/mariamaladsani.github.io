@@ -165,46 +165,45 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="assignment-6-webscrapingtextmining" class="level2">
 <h2 class="anchored" data-anchor-id="assignment-6-webscrapingtextmining">Assignment 6: Webscraping/textmining</h2>
-<p>For this project we webscraped Martin Luther King’s “I Have A Dream Speech,” using a text mining script. The text mining script downloads the “htmlTreeParse” function which allows to break down the article and ultimately process different vectors like punctuation, paragraphs, and word-frequency; which I will discuss later.</p>
-<p>Once we install the necessary packages like XML, wordcloud, RColorBrwer, NLP, tm, and quantenda, we process the speech as an html document. This makes it easier to sparse through. As seen in the image below, the speech is now processed as an html document on RStudio.</p>
+<p>For this project we webscraped Martin Luther King’s “I Have A Dream Speech,” using a text mining script. The text mining script downloads the “htmlTreeParse” function which allows to break down the article and ultimately process different vectors like punctuation, paragraphs, and word-frequency; which I will discuss later. After installing the necessary packages like XML, wordcloud, RColorBrwer, NLP, tm, and quantenda, we process the speech as an html document. This makes it easier to sparse through. As seen in the image below, the speech is now processed as an html document on RStudio.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/Screenshot (153)-01.jpg" class="img-fluid figure-img" width="701"></p>
+<p><img src="_site/images/paragraph-01.png" class="img-fluid figure-img" width="442"></p>
 </figure>
 </div>
-<p>Following this procedure we start vectorizing the words in the document and we then run the words.corpus too. Both the words.vec and words.corpus are seen in the data section of RStudio, and reveal the language, content, length, as well as other features in MLK’s speech. We run other elements of words.corpus like removing punctuating and numbers to make it easier to analyze the text. Running TermDocumentMatrix, processes minuscule elements of the speech like integers and characters, this tool is helpful for the generation of wordcloud later. After the intial run of TermDocumentMatrix we can no analyze more broader parts of the text like word count.</p>
+<p>Following this procedure we start vectorizing the words in the document and we then run the words.corpus too. Both the words.vec and words.corpus are seen in the data section of RStudio, and reveal the language, content, length, as well as other features in the speech. We run other elements of words.corpus like removing punctuating and numbers to make it easier to analyze the text. Running TermDocumentMatrix, processes minuscule elements of the speech like integers and characters, this tool is helpful for the generation of the wordcloud later. After the initial run of TermDocumentMatrix we can now analyze more broader parts of the text like word count/frequency.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/Screenshot (154).jpg" class="img-fluid figure-img" width="240"></p>
+<p><img src="_site/images/wordcount1-02.png" class="img-fluid figure-img" width="481"></p>
 </figure>
 </div>
 <p>We can finally generate a wordcloud of MLK’s “I Have A Dream,” speech, that displays the most frequent words used.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/mlkcloud.jpg" class="img-fluid figure-img" width="450"></p>
+<p><img src="_site/images/0364c463-2a56-458e-80d6-7fe21265513a-01.png" class="img-fluid figure-img" width="509"></p>
 </figure>
 </div>
 <p>Dr.&nbsp;Ho, then showed me how to play around with word frequencies. We were able to generate a wordcloud with words that were only mentioned once in the speech. As seen, the wordcloud includes a wider variety of words.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/mlkcolor.jpg" class="img-fluid figure-img" width="621"></p>
+<p><img src="_site/images/3c46bf3b-a45c-4e64-9dfd-4dffd209d727-01.png" class="img-fluid figure-img" width="584"></p>
 </figure>
 </div>
 <p>For the second part of the project we were expected to follow the same code for Winston Churchill’s “The Finest Hour.” After processing the speech as html document. We were able to vectorize different aspects of the speech. This was the TermDocumentMatrix for the Finest Hours:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/Screenshot (155).jpg" class="img-fluid figure-img" width="338"></p>
+<p><img src="_site/images/Screenshot (143)-01.png" class="img-fluid figure-img" width="446"></p>
 </figure>
 </div>
 <p>This is the word cloud generated for words with a frequency of 10. Similar to the MLK portion, I played around with the frequencies and inputted 5 instead of 10, and saw a significant difference. Both wordclouds can be seen below.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/wc5.jpg" class="img-fluid figure-img" width="493"></p>
+<p><img src="_site/images/wc10.png" class="img-fluid figure-img" width="508"></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/wc10.jpg" class="img-fluid figure-img" width="528"></p>
+<p><img src="_site/images/wc5.png" class="img-fluid figure-img" width="413"></p>
 </figure>
 </div>
 
